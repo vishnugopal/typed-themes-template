@@ -9,21 +9,21 @@ export default {
     decorators: [withKnobs],
 };
 
-export const Primary = () => (
+export const Action = () => (
     <div className="m-2">
         <Button
             title={text('Button title', 'Login')}
-            role="primary"
+            role="action"
             onClick={action('button-click')}
         />
     </div>
 );
 
-export const Secondary = () => (
+export const SecondaryAction = () => (
     <div className="m-2">
         <Button
             title={text('Button title', 'Login')}
-            role="secondary"
+            role="secondaryAction"
             onClick={action('button-click')}
         />
     </div>

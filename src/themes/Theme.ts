@@ -1,23 +1,14 @@
-export default interface Theme {
-    [index: string]: string;
-
+interface Theme {
+    [key: string]: string | number;
     name: string;
-    backgroundColor: string;
-    inactiveBackgroundColor: string;
-    textColor: string;
-    textHighlightColor: string;
-    toggleHighlightColor: string;
-    toggleInactiveColor: string;
-    buttonPrimaryBackgroundColor: string;
-    buttonPrimaryBorderColor: string;
-    buttonPrimaryTextColor: string;
-    buttonPrimaryHoverBackgroundColor: string;
-    buttonPrimaryHoverBorderColor: string;
-    buttonPrimaryHoverTextColor: string;
-    buttonSecondaryBackgroundColor: string;
-    buttonSecondaryBorderColor: string;
-    buttonSecondaryTextColor: string;
-    buttonSecondaryHoverBackgroundColor: string;
-    buttonSecondaryHoverBorderColor: string;
-    buttonSecondaryHoverTextColor: string;
+    neutralColor: string;
+    actionColor: string;
+    secondaryActionColor: string;
+    dangerColor: string;
+    warningColor: string;
+    successColor: string;
+    defaultIntensity: number;
+    hoverIntensity: number;
+    selectedIntensity: number;
 }
+export default Theme;
