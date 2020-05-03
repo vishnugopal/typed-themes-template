@@ -7,6 +7,9 @@ This is a starter template project for anyone wanting to build a typed theme sys
 
 ## Get Started
 
+To get a complete zero starting template, checkout to the `zero` branch:
+`git checkout zero`
+
 1. `yarn`
 2. `yarn storybook`
 
